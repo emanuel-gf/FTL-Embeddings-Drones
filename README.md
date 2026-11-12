@@ -1,8 +1,14 @@
 
+Webinar sobre Embeddings e drones para FTL Brasil
 
-# How to launch the dataset 
-uv run python launch.py --folder data/tiles5cm --name tiles5cm              # create (if missing) and open the App
-uv run python launch.py --folder data/tiles5cm --name tiles5cm --rebuild    # replace an existing dataset
-uv run python launch.py --folder data/tiles5cm --no-app                     # create only
+Como rodar localmente:
+1- Clone o Repo
+2- uv sync
+
+Notebooks:
+- Apresentacao.ipynb -> notebook contendo todas as informações
+- download_embeddings.ipynb -> notebook para capturar os embeddings e fazer o download para manipula-los localmente
+
+
 
 
