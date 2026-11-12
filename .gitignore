@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Data: ignored, except the labels of the class (needed in Colab, versioned on purpose)
+data/*
+!data/cog_10cm/
+data/cog_10cm/*
+!data/cog_10cm/geojson_labelling/
+
+notebooks/
